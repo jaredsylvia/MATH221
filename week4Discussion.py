@@ -26,7 +26,7 @@ for i in range(0,100000):
                          np.random.randint(500,800) + \
                          np.random.randint(800,1000))
 
-disPlot(dailyCalories, 'Daily Caloric Intake', 'Count')
+disPlot(dailyCalories, 'Daily Caloric Intake', 'Calories')
 
 caloricMean = statistics.mean(dailyCalories)
 caloricStDev = statistics.stdev(dailyCalories)
