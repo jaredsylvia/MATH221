@@ -15,7 +15,7 @@ def disPlot(calories, title, xlabel):
     calories.sort()
     fig = sns.displot(calories, bins=(int(calories[-1]) - int(calories[0])))
     plt.title(title)
-    plt.xlabel("Number of successful individuals")
+    plt.xlabel(xlabel)
     
     plt.show()
     return fig
